@@ -1,4 +1,4 @@
-{
+{ "homepage": "https://ganireddy651.github.io/payinsta_assessment",
   "name": "nxt-watch",
   "private": true,
   "version": "1.0.0",
@@ -42,6 +42,8 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
+    "redeploy":"npm run build",
+    "deploy" : "gh-pages -d bulid",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
